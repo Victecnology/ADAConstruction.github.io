@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+.nav-item a {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(235, 234, 234);
+    border-bottom: 2px solid;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.nav-item a:hover {
+    color: rgb(238, 197, 14);
+    transition: 0.75s;
+    border-bottom: 2px solid;
+    margin: auto;
+}
+
+
+#logo {
+    font-size: 27px;
+    opacity: 1;
+    background: linear-gradient(to bottom right,rgb(255, 238, 0),rgb(238, 92, 8),rgb(255, 187, 0),rgb(238, 92, 8));
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: color 3s linear infinite; 
+    background-size: 500%;   
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.linkedin{
+    color: rgb(255, 248, 248);
+}
+
+.linkedin :hover{
+    color: rgb(31, 206, 230);
+    box-shadow: 1px 1px 24px rgb(21, 224, 231);
+}
+
+.instagram{
+    color: rgb(255, 248, 248);
+}
+
+.instagram :hover{
+    color: rgb(209, 75, 22);
+    box-shadow: 1px 1px 24px rgb(238, 66, 14);
+}
+
+.facebook{
+    color: rgb(255, 248, 248);
+}
+
+.facebook :hover{
+    color: rgb(21, 124, 241);
+    box-shadow: 1px 1px 24px rgb(12, 130, 240);
+}
